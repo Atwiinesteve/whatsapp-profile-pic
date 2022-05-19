@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(3, 3, 3, 0.849), rgba(0, 0, 0, 0.808)), url('/alexander-shatov-k1xf2D7jWUs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.profile--container {
+    width: 500px;
+    max-width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile--card {
+    width: 100%;
+    line-height: 0;
+}
+
+img.profile--image {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 0px;
+    border-radius: 1px;
+}
+
+.profile--links {
+    margin-top: 0px;
+    background-color: rgb(6, 17, 14);
+    padding: 1rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile--links i {
+    color: rgb(22, 121, 96);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
